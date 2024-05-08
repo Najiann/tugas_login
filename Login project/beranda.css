@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: rgb(249, 249, 249);
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    position: relative;
+    margin: 10px;
+    bottom: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(home1.png);
+    background-repeat: no-repeat;
+}
+
+.responsive-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #68a1e33e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.responsive-button:hover {
+    background-color: #0056b3;
+}
